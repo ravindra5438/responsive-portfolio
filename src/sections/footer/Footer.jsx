@@ -3,7 +3,11 @@ import "./Footer.css"
 
 const Footer = () => {
   return (
-    <footer id='footer'><h2>Footer</h2></footer>
+    <footer id='footer'>
+      <div className='footer-container'>
+        <p>© 2023 Ravindra Yadav. All rights reserved.</p>
+      </div>
+    </footer>
   )
 }
 

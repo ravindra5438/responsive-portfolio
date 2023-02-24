@@ -4,6 +4,7 @@ header{
     place-items: center;
     background: white;
     transition: var(--transition);
+    min-height: 90vh;
 }
 
 .header__container{

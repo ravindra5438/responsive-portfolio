@@ -11,7 +11,7 @@ nav{
     top:1rem;
     left: 10vw;
     z-index: 9;
-    box-shadow: 0 1rem 1.5rem black;/*hsla(var(--primary-hue), 68%, 42%, 70%)*/
+    box-shadow: 0 1rem 1.5rem #4E31AA;/*hsla(var(--primary-hue), 68%, 42%, 70%)*/
     border-radius: 1.5rem;
 }
 
