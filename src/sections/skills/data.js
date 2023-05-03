@@ -4,7 +4,7 @@ const data = [
     id: 1,
     imageSrc:
       "https://th.bing.com/th/id/OIP.z73sRumf-85R0GgrVRhS5gHaDF?pid=ImgDet&rs=1",
-    skillRating: 80,
+    skillRating: 90,
   },
   {
     name: "JavaScript",
@@ -23,7 +23,7 @@ const data = [
     name: "React Native",
     id: 4,
     imageSrc: "https://wallpapercave.com/wp/wp6953020.jpg",
-    skillRating: 70,
+    skillRating: 85,
   },
   {
     name: "Node JS",
@@ -36,7 +36,7 @@ const data = [
     name: "Blender 3d",
     id: 6,
     imageSrc: "https://i.ytimg.com/vi/uvSvD_SLdZY/maxresdefault.jpg",
-    skillRating: 70,
+    skillRating: 75,
   },
   {
     name: "GitHub",

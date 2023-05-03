@@ -9,7 +9,7 @@ const SkewedCard = ({skillRating,imageSrc,name}) => {
                     <h4>{name}</h4>
                 </div>
                 <div className="SkewedCard-Image">
-                    <img style={{width:'100%',aspectRatio:2.5}} src={imageSrc} alt="image"/>
+                    <img style={{width:'100%',aspectRatio:2.5}} src={imageSrc} alt="skill-img"/>
                 </div>
                 <div className="Progress">
                     <h6>Skill level</h6>

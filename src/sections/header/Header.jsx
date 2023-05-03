@@ -1,6 +1,6 @@
-import React from 'react'
-import "./Header.css"
-import Profile from "../../assets/profile.jpg"
+import React from "react";
+import "./Header.css";
+import Profile from "../../assets/profile.jpg";
 
 const Header = () => {
   return (
@@ -11,15 +11,22 @@ const Header = () => {
         </div>
         <h3>Ravindra Yadav</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quas facilis veniam recusandae rerum, accusantium ipsam saepe incidunt sint blanditiis officia corporis nobis accusamus cumque quisquam, quidem cupiditate culpa distinctio aliquid. Corporis eaque ratione sint consequuntur illo iusto, excepturi quo molestias error obcaecati architecto expedita amet? Commodi at alias distinctio.
+          Welcome to my website,I am a skilled and experienced Full Stack web
+          and Mobile Application Developer. With a deep passion for technology
+          and innovation, I am committed to providing exceptional solutions that
+          cater to your unique needs and exceed your expectations.
         </p>
         <div className="header__cta">
-          <a href="#contact" className='btn primary'>Let's Talk</a>
-          <a href="#portfolio" className='btn light'>My Work</a>
+          <a href="#contact" className="btn primary">
+            Let's Talk
+          </a>
+          <a href="#portfolio" className="btn light">
+            My Work
+          </a>
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

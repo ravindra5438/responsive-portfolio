@@ -33,13 +33,21 @@ nav{
 }
 .nav__menu li{
     width: 5rem;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.nav__menu li a{
+    padding: 8px;
+}
+
+
 .nav__menu li a:hover{
-    text-shadow: 0 0 1rem white;
-    font-weight: 600;
+    background-color: rgba(0, 0, 0, .4);
+    color: aqua;
+    border-radius: 50px;
     transition: ease-in-out 400ms;
 }
 
@@ -61,9 +69,9 @@ nav{
     }
   }
 
-  @media screen and (max-width:1024px) {
+@media screen and (max-width:1024px) {
     .nav__menu{
         display: none;
     }
     
-  }
+}
