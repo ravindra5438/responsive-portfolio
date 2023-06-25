@@ -51,12 +51,12 @@ body{
 } 
 section { 
   padding : 10rem 0; 
-  background : var(--color-light); 
+  background-color: var(--color-light);
   transition : var(--transition);
 }
 
 section:nth-child(even){
-  background-color: var(--color-white);
+  background:var(--color-white);
 }
 
 section>h2{

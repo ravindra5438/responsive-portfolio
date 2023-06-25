@@ -52,7 +52,7 @@
     color: white;
 }
 .Progress-ProgressBar{
-    background-color: var(--color-primary);
+    background-color: greenyellow;
     width: 0%;
     height: 50%;
     border-top-right-radius: 200px;
@@ -60,12 +60,10 @@
     transition: 1s ease-in-out;
 }
 .SkewedCard:hover{
-    transform: scale(1.5);
-    border-color: black;
-    box-shadow: 0 0px 100px 10px var(--color-primary);
+    transform: scale(1.1);
+    box-shadow: 0 0px 100px 10px greenyellow;
     z-index: 2;
     border-radius: 20px;
-    outline: var(--color-primary) solid 1px;
 }
 
 .SkewedCard:hover .Progress{
@@ -170,10 +168,9 @@
     .SkewedCard{
         transform: none;
         width: 100%;
-        border-color: black;
         z-index: 2;
         border-radius: 20px;
-        outline: var(--color-primary) solid 2px;
+        /* outline: var(--color-primary) solid 2px; */
     }
     .SkewedCard:hover{
         transform: scale(1.05);

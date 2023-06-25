@@ -1,8 +1,7 @@
-header{
-    margin-top: 7rem;
+#header{
+    /* margin-top: 7rem; */
     display: grid;
     place-items: center;
-    background: white;
     transition: var(--transition);
     min-height: 90vh;
 }
@@ -17,7 +16,8 @@ header{
   border: 8px solid grey;
   box-shadow: 2px 2px 5px grey;
   width: 18rem;
-  border-radius: 12rem 12rem 2rem 2rem;
+  border-radius:50%;
+  height: 18rem;
   overflow: hidden;
   margin-bottom: 1.5rem;
 }

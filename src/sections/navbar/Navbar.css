@@ -17,8 +17,9 @@ nav{
 
 .nav__container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .nav__logo{
@@ -43,35 +44,51 @@ nav{
     padding: 8px;
 }
 
-
 .nav__menu li a:hover{
-    background-color: rgba(0, 0, 0, .4);
     color: aqua;
     border-radius: 50px;
     transition: ease-in-out 400ms;
 }
-
-.nav__themeIcon{
-    cursor: pointer;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-name: slidein;
-    border-radius: 50%;
+.mobile-list-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
-@keyframes slidein {
-    from {
-      transform: rotateZ(0deg);
-    }
-    
-    to {
-        transform: rotateZ(360deg);
-    }
-  }
+.small-nav_menu{
+    margin-top: 30px;
+    transition: 300ms ease-in-out;
+    transform: none;
+    opacity: 0;
+    width: 80%;
+    background-color: var(--color-primary);
+    border-radius: 4px 4px 2rem 2rem;
+    position: absolute;
+    top: -300px;
+}
+.active{
+    top: 0;
+    opacity: 1;
+}
+.small-nav_menu > li{
+    padding: 8px;
+    text-align: center;
+}
+.small-nav_menu > li > a{
+    color: white;
+    font-weight: 500;
+}
+
 
 @media screen and (max-width:1024px) {
     .nav__menu{
         display: none;
     }
     
+}
+@media screen and (min-width:1024px) {
+    .btn-show{
+        display: none;
+    }
 }

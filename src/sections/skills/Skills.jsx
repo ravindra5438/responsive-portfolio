@@ -8,6 +8,7 @@ const Skills = () => {
   return (
     <section id="skills">
       <h2>Skills</h2>
+      <p>my skill level in different technologies</p>
       <div className="skillContainer">
       {
         data.map(singleData => <SkewedCard key={singleData.id} name={singleData.name} skillRating={singleData.skillRating} imageSrc={singleData.imageSrc}/>)
